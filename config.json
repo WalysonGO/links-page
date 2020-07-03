@@ -1,0 +1,55 @@
+{
+  "avatar": "img/me.jpeg",
+  "name": "Igor Venturelli",
+  "bio": "Software Engineer",
+  "links": [
+    {
+      "image": "img/linkedin.png",
+      "url": "https://www.linkedin.com/in/igventurelli/",
+      "text": "in/igventurelli",
+      "title": "LinkedIn"
+    },
+    {
+      "image": "img/so.png",
+      "url": "https://pt.stackoverflow.com/users/5963/igventurelli",
+      "text": "@igventurelli",
+      "title": "StackOverflow"
+    },
+    {
+      "image": "img/youtube.png",
+      "url": "https://www.youtube.com/channel/UCHAvXiomV978D9bnAmcHRng",
+      "text": "@igventurelli",
+      "title": "YouTube"
+    },
+    {
+      "image": "img/discord.png",
+      "url": "https://discord.gg/aEfF8CC",
+      "text": "igventurelli [comunidade]",
+      "title": "Discord"
+    },
+    {
+      "image": "img/medium.png",
+      "url": "https://medium.com/@igventurelli",
+      "text": "@igventurelli",
+      "title": "Medium"
+    },
+    {
+      "image": "img/twitter.png",
+      "url": "https://twitter.com/igventurelli",
+      "text": "@igventurelli",
+      "title": "Twitter"
+    },
+    {
+      "image": "img/instagram.png",
+      "url": "https://instagram.com/igventurelli",
+      "text": "@igventurelli",
+      "title": "Instagram"
+    },
+    {
+      "image": "img/telegram.png",
+      "url": "t.me/igventurelli",
+      "text": "@igventurelli",
+      "title": "Telegram"
+    }
+  ]
+}
