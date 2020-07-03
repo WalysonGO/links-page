@@ -1,6 +1,6 @@
 # Links Page
 
-[![Build Status](https://travis-ci.org/igventurelli/links-page.svg?branch=master)](https://travis-ci.org/igventurelli/links-page)
+[![Build Status](https://travis-ci.org/igventurelli/links-page.svg?branch=master)](https://travis-ci.org/igventurelli/links-page) [![Discord](https://img.shields.io/discord/728053623799676928.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/aEfF8CC)
 
 A simple project that exposes your social links in a single page.  
 This kind of page is used a lot on Instagram on the "bio link".
@@ -52,11 +52,4 @@ This project is made with:
 
 We are using [Travis CI](https://travis-ci.org/) to build and deploy the static page into the GitHub Pages, but you can use any CI/CD you want (including [GitHub Actions](https://github.com/features/actions), by the way)
 
-For you be able to deploy to GitHub Pages, you need to create a [personal token](https://github.com/settings/tokens) on GitHub and store it on Travis (or the CI you use).  
-Besides the personal token, we need to provide the "environment name" to the CI, for the project be built ready to the GH Pages.  
-We can perform these actions with environment variables:
-
-- `GITHUB_ACCESS_TOKEN`, that will store the personal token you've created
-- `DEPLOY_ENV`, that must contains the value: `GH_PAGES`
-
-For more information about the `DEPLOY_ENV` and why do we need it, please take a look to the [Nuxt documentation](https://nuxtjs.org/faq/github-pages/#deploying-to-github-pages-for-repository) (it's just a trick to not "crash" the app in local environment execution)
+For Travis be able to deploy to GitHub Pages, you need to create a [personal token](https://github.com/settings/tokens) on GitHub and [store it on Travis](https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token) (or the CI you use).  
